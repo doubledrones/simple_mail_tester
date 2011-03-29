@@ -1,0 +1,11 @@
+CONFIG = {
+  :poczta_wp_pl => {
+    :description => "poczta.wp.pl",
+    :tested_email => "TO_EMAIL@example.com",
+    :smtp_server => "smtp.wp.pl",
+    :smtp_port => "25",
+    :smtp_username => "USERNAME",
+    :smtp_password => "PASSWORD",
+    :from => "FROM_EMAIL@wp.pl"
+  },
+}
