@@ -9,4 +9,14 @@ CONFIG = {
     :from => "FROM_EMAIL@wp.pl",
     #:domain => "wp.pl" # if not present defaults to "localhost.localdomain"
   },
+  :google_com => {
+    :description => "google.com",
+    :tested_email => "TO_EMAIL@example.com",
+    :smtp_server => "smtp.googlemail.com",
+    :smtp_port => "587",
+    :smtp_username => "USERNAME",
+    :smtp_password => "PASSWORD",
+    :from => "FROM_EMAIL@gmail.com",
+    :domain => "HELO"
+  },
 }
