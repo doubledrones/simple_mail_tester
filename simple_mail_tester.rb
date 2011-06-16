@@ -21,6 +21,7 @@ CONFIG.each do |key, config|
       :user_name            => config[:smtp_username],
       :password             => config[:smtp_password],
       :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
+      :domain               => config[:domain] || "localhost.localdomain"
     }
   )
 

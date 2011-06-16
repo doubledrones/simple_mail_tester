@@ -6,6 +6,7 @@ CONFIG = {
     :smtp_port => "25",
     :smtp_username => "USERNAME",
     :smtp_password => "PASSWORD",
-    :from => "FROM_EMAIL@wp.pl"
+    :from => "FROM_EMAIL@wp.pl",
+    #:domain => "wp.pl" # if not present defaults to "localhost.localdomain"
   },
 }
